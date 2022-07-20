@@ -214,12 +214,13 @@ footer{
     background-color: rgb(19, 18, 18);
     color: rgb(175, 168, 168);
     text-align: center;
-    padding: 0 4vw ;
+    justify-content: center;
     padding-top: 5vw;
     padding-bottom: 4vw;
    
 }
 footer h1 {
+    font-size: 8vw;
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     padding-bottom: 5vw;
@@ -238,11 +239,16 @@ footer h1 {
     padding: 2vw;
     display: flex;
     justify-content: space-between;
+    padding-left: 1vw;
 
 
 }
+.navbar ul{
+    padding: 0;
+}
 
 .navbar ul li{
+    font-size: 2vw;
     list-style: none;
     display: inline-block;
     margin: 1.5vw;
@@ -366,7 +372,7 @@ footer h1 {
      }
  
      .news{
-         grid-template-columns: repeat(2, 1fr);
+         grid-template-columns: repeat(1, 1fr);
      }
  
   
@@ -392,7 +398,18 @@ footer h1 {
     }
     
     .poster{
+
         font-size: 2.1vw;
         line-height: 3vw;
+    }
+    .poster h2{
+        font-size: 2.2vw;
+    }
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        margin: 1.5vw;
+        
+        justify-content:space-around;
     }
 }
