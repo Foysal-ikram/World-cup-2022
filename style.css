@@ -304,7 +304,22 @@ footer h1 {
         
 
     }
+    .poster{
+        font-size: 2vw;
+    }
     
+    .poster h2{
+        font-size: 2.2vw;
+        padding: 1.5vw;
+    }
+    .poster i{
+        padding: 1vw;
+        font-size: 2vw;
+        margin-left: 1.5vw;
+    }
+    .poster button{
+        margin-left: 2.5vw;
+    }
 }
 
 
@@ -377,13 +392,16 @@ footer h1 {
  
   
     .menu{
+        border-radius: 2vw;
         width: 100%;
-        flex-direction: row;
-        height: 6vw;
+        flex-direction: column;
+        height: 100%;
         display: flex;
         margin: 0 auto;
         justify-content: space-evenly;
-        background-color: rgba(255, 255, 255, 0);
+        background-color: rgb(8, 8, 8);
+        margin-bottom: 2vw;
+       
         
     }
     
@@ -397,14 +415,7 @@ footer h1 {
 
     }
     
-    .poster{
-
-        font-size: 2.1vw;
-        line-height: 3vw;
-    }
-    .poster h2{
-        font-size: 2.2vw;
-    }
+    
     .navbar ul{
         list-style: none;
         display: flex;
@@ -412,4 +423,23 @@ footer h1 {
         
         justify-content:space-around;
     }
+
+    .poster{
+
+        border-radius: 2.7vw;
+        font-size: 3.1vw;
+        line-height: 6vw;
+    }
+    
+    .poster h2{
+        font-size: 3.2vw;
+        padding: 1.5vw;
+    }
+    .poster i{
+        padding: 1.23vw;
+    }
+    .poster button{
+        margin-left: 2.5vw;
+    }
+     
 }
