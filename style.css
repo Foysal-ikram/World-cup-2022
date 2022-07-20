@@ -120,11 +120,13 @@ font-family: 'Poppins', sans-serif;
     row-gap: 2vw;
 }
 .poster {
-    /* border: 2px solid rebeccapurple; */
+    border: 0.5px solid rgb(151, 151, 151);
     margin: auto;
     margin: 0.5vw;
+    border-radius: 1vw;
    
 }
+
 .poster button{
     padding:.5vw 1.5vw;
     margin: 0.8vw auto;
@@ -311,6 +313,7 @@ footer h1 {
 }
 
 .matche-schedule {
+    border: 2px solid rgb(184, 184, 184);
     justify-content: center;
     text-align: center;
     padding: 1.2vw;
